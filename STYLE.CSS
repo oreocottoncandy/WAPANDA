@@ -1,0 +1,147 @@
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ 
+}
+/* Mockup styling */
+.mockups {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; /* Ensure images wrap on smaller screens */
+    margin: 25px 0;
+    padding: 0 10px;
+    position: relative;
+}
+
+.mockups img {
+    
+    margin: 30px;
+    
+}
+/* Header styling */
+.header h1 {
+    font-size: 2.5rem; /* Scalable font size */
+   background-color: black;
+    padding: 5%;
+    color: white;
+    text-align: center;
+    margin: 0;
+}
+
+.header h2 {
+    font-size: 1.5rem;
+    color: black;
+    text-align: center;
+    margin: 10px 0;
+}
+.selection {
+    display: flex;
+    justify-content: center;
+    gap: 30px; /* Space between blocks */
+    margin: 20px 0;
+}
+
+.option {
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+    width: 250px;
+    background-color: #000000;
+}
+
+button {
+    margin: 10px;
+    padding: 10px 15px;
+    background-color: #000000;
+    color: #fff8f8;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: aqua;
+}
+
+  
+/* Navigation styling */
+.navigation {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.navigation a {
+    color: black;
+    font-size: 1rem;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: inline-block;
+    margin: 5px;
+    transition: color 0.3s;
+}
+
+.navigation a:hover {
+    color: aqua;
+}
+
+/* Logo styling */
+.logo {
+    text-align: center;
+    margin: 20px 0;
+}
+
+
+/* Footer styling */
+footer {
+    padding: 20px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .header h1 {
+        font-size: 2rem;
+    }
+
+    .header h2 {
+        font-size: 1.2rem;
+    }
+
+    .navigation a {
+        font-size: 0.9rem;
+        padding: 8px 12px;
+    }
+
+    .mockups img {
+        width: 150px; /* Smaller images for mobile */
+    }
+
+    .social-button {
+        font-size: 0.9rem;
+        padding: 8px 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    .header h1 {
+        font-size: 1.5rem;
+        padding: 30px 10px;
+    }
+
+    .header h2 {
+        font-size: 1rem;
+    }
+
+    .mockups {
+        flex-direction: column; /* Stack images vertically */
+    }
+
+ 
+}
+
